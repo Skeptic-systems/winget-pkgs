@@ -1,0 +1,17 @@
+Id: Stormix.DeadlockModManager
+Name: Deadlock Mod Manager
+Version: 0.4.0
+Publisher: Stormix
+License: MIT
+LicenseUrl: https://opensource.org/licenses/MIT
+Description: "Deadlock Mod Manager"
+Homepage: https://deadlockmods.app/
+
+Installers:
+  - Arch: x64
+    Url: https://github.com/Stormix/deadlock-modmanager/releases/download/v0.4.0/Deadlock.Mod.Manager_0.4.0_x64_en-US.msi
+    Sha256: 650d05c2f681918b10ae0b6608cf561e576e0112d0d7f4f304ff6586b38eb6c2
+    InstallerType: msi
+    Switches:
+      Silent: "/qn"
+      SilentWithProgress: "/passive"
